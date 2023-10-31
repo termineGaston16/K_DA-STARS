@@ -1,3 +1,41 @@
 /* MEDIAS QUERIES */
 /* INDEX*/ 
 
+/* 0px - 769px */
+@media(min-width: 0px) and (max-width: 769px) {
+    
+    /* INDEX*/
+    .contenedorMainIndex {
+        .contenedorMainIndexSub {
+            .contenedorMainIndexSub1 {
+                .imagenLogoKda1Index {
+                    opacity: 1;
+                    width: 50%;
+                }
+
+                &:hover {
+                    .imagenFondoKda1Index {
+                        filter: blur(0px);
+                        transform: scale(1.0);
+                    }
+                }
+            }
+    
+            
+
+            .contenedorMainIndexSub2 {
+                .imagenLogoKda2Index {
+                    opacity: 1;
+                    width: 50%;
+                }
+
+                &:hover {
+                    .imagenFondoKda2Index {
+                        filter: blur(0px);
+                        transform: scale(1.0);
+                    }
+                }
+            }
+        }
+    }
+}
