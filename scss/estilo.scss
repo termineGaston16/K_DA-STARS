@@ -5,6 +5,7 @@
 
 @font-face{
     font-family: 'Open Sans', sans-serif;
+    font-family: 'Caveat', sans-serif;
 }
 
 html {
@@ -12,7 +13,7 @@ html {
 }
 
 /* IMPORTS */
-@import "index","body","header";
+@import "index","body","header","main";
 @import "m-q";
  
 

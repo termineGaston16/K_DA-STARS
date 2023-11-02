@@ -1,0 +1,146 @@
+.mainKda2018 {
+
+    /* BARRA NAV */
+    .navBarKda {
+        background-color: rgb(11, 11, 11);
+        position: static;
+
+        .navBarKdaSub {
+            .imagenLogoPrincipal {
+                width: 15%;
+                transition: 0.3s;
+
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+
+            .botonQueAbreNavBarKda {
+                margin-right: 3%;
+                border: 1px solid rgb(131, 0, 192);
+                background-color: rgb(16, 16, 16);
+                transition: 0.3s;
+
+                &:hover {
+                    transform: scale(0.9);
+                    border: 1px solid rgb(1, 242, 255);
+                    background-color: rgb(0, 0, 0);
+                }
+
+            }
+
+            .menuNavQueSeAbreKda {
+                background-color: rgb(15, 15, 15);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+
+                .logoMenuNavQueSeAbreKda {
+                    .imagenLogoKda {
+                        width: 70%;
+                    }
+
+                    .botonQueCierraMenuNavKda {
+                        margin-right: 10%;
+
+                        border: 1px solid rgb(158, 4, 230);
+                        background-color: rgb(16, 16, 16);
+                        transition: 0.3s;
+
+                        &:hover {
+                            border: 1px solid rgb(1, 242, 255);
+                            background-color: white;
+                        }
+                    }
+                }
+
+                .listaNavQueSeAbreKda {
+                    .listaNavQueSeAbreKdaSub {
+                        hr {
+                            border-color: rgb(158, 4, 230);
+                        }
+
+                        .navBotonListaQueSeAbreKdaSub {
+                            a {
+                                text-align: center;
+                                color: rgb(212, 212, 212);
+                                font-size: 1.0rem;
+                                transition: 0.4s;
+
+                                &:hover {
+                                    transform: scale(1.2);
+                                    color: rgb(110, 171, 207);
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .fraseBarNav{
+                    color: rgb(154, 255, 253);
+                    text-shadow: 3px 3px black;
+                    font-size: 1.5rem;
+                    
+                }
+            }
+        }
+    }
+
+    /* H2 */
+    h2 {
+        margin-top: 5%;
+        margin-bottom: 0%;
+
+        color: rgb(53, 235, 238);
+        font-size: 4.0rem;
+        text-align: center;
+
+        background-color: rgba(0, 0, 0, 0.722);
+        transition: 0.3s;
+
+        &:hover {
+            color: white;
+        }
+    }
+
+    /* ¿QUIÉNES SON? */
+    .quienesSonKda{
+        width: 100%;
+
+        .quienesSonKdaParteTextual{
+            width: 50%;
+            background-color: rgba(0, 0, 0, 0.794);
+            border-radius: 20px;
+            margin: 4% 0% 4% 3%;
+
+            
+            .quienesSonKdaTexto{
+                color: white;
+                text-shadow: 3px 3px black;
+
+                margin: 5%;
+                font-size: 1.7rem;
+            }
+        }
+
+        .quienesSonKdaParteImagen{
+            width: 46%;
+            background-color: rgba(0, 0, 0, 0.794);
+            border-radius: 20px;
+            margin-top: 4%;
+            margin: 4% 0% 4% 0%;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .quienesSonKdaImagen{
+                width: 90%;
+
+                border: double rgb(5, 5, 5) 5px;
+            }
+        }
+    }
+
+}

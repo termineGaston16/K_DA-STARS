@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +6,7 @@
 
 @font-face {
   font-family: "Open Sans", sans-serif;
+  font-family: "Caveat", sans-serif;
 }
 html {
   scroll-behavior: smooth;
@@ -78,6 +80,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  font-family: "Caveat", sans-serif;
 }
 
 .menuHeaderKda2018 {
@@ -87,34 +90,16 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 400px;
-}
-.menuHeaderKda2018 .menuHeaderKda2018Sub .menuHeaderKda2018SubLista .botonRiotGamesHeader {
-  background: none;
-  border: 1px solid rgb(254, 37, 62);
-  border-radius: 10px;
-  color: rgb(254, 37, 62);
-  font-family: "Open Sans", sans-serif;
-  font-size: 1rem;
-  padding: 5% 40%;
-  white-space: nowrap;
-  letter-spacing: 5px;
-  transition: 0.5s;
-}
-.menuHeaderKda2018 .menuHeaderKda2018Sub .menuHeaderKda2018SubLista .botonRiotGamesHeader:hover {
-  transform: scale(1.2);
-  background: linear-gradient(20deg, rgb(251, 0, 29), rgb(255, 43, 68));
-  border: 1px solid white;
-  color: white;
+  gap: 100px;
 }
 .menuHeaderKda2018 .menuHeaderKda2018Sub .menuHeaderKda2018SubLista .botonEscuchaKdaHeader {
   background: none;
   border: 1px solid rgb(131, 0, 192);
   border-radius: 10px;
+  padding: 5% 55%;
   color: rgb(131, 0, 192);
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
-  padding: 5% 60%;
   white-space: nowrap;
   white-space: nowrap;
   letter-spacing: 5px;
@@ -144,10 +129,10 @@ html {
   background: none;
   border: 1px solid rgb(131, 0, 192);
   border-radius: 10px;
+  padding: 5% 55%;
   color: rgb(131, 0, 192);
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
-  padding: 5% 60%;
   white-space: nowrap;
   white-space: nowrap;
   letter-spacing: 7px;
@@ -172,6 +157,112 @@ html {
 }
 .menuHeaderKda2018 .menuHeaderKda2018Sub .menuHeaderKda2018SubLista .botonSigueKdaHeader .listaBotonSigueKdaHeader .listaSubBotonSigueKdaHeader .logoBotonSigueKdaHeader:hover {
   transform: scale(1.2);
+}
+
+.mainKda2018 {
+  /* BARRA NAV */
+  /* H2 */
+  /* ¿QUIÉNES SON? */
+}
+.mainKda2018 .navBarKda {
+  background-color: rgb(11, 11, 11);
+  position: static;
+}
+.mainKda2018 .navBarKda .navBarKdaSub .imagenLogoPrincipal {
+  width: 15%;
+  transition: 0.3s;
+}
+.mainKda2018 .navBarKda .navBarKdaSub .imagenLogoPrincipal:hover {
+  transform: scale(1.1);
+}
+.mainKda2018 .navBarKda .navBarKdaSub .botonQueAbreNavBarKda {
+  margin-right: 3%;
+  border: 1px solid rgb(131, 0, 192);
+  background-color: rgb(16, 16, 16);
+  transition: 0.3s;
+}
+.mainKda2018 .navBarKda .navBarKdaSub .botonQueAbreNavBarKda:hover {
+  transform: scale(0.9);
+  border: 1px solid rgb(1, 242, 255);
+  background-color: rgb(0, 0, 0);
+}
+.mainKda2018 .navBarKda .navBarKdaSub .menuNavQueSeAbreKda {
+  background-color: rgb(15, 15, 15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainKda2018 .navBarKda .navBarKdaSub .menuNavQueSeAbreKda .logoMenuNavQueSeAbreKda .imagenLogoKda {
+  width: 70%;
+}
+.mainKda2018 .navBarKda .navBarKdaSub .menuNavQueSeAbreKda .logoMenuNavQueSeAbreKda .botonQueCierraMenuNavKda {
+  margin-right: 10%;
+  border: 1px solid rgb(158, 4, 230);
+  background-color: rgb(16, 16, 16);
+  transition: 0.3s;
+}
+.mainKda2018 .navBarKda .navBarKdaSub .menuNavQueSeAbreKda .logoMenuNavQueSeAbreKda .botonQueCierraMenuNavKda:hover {
+  border: 1px solid rgb(1, 242, 255);
+  background-color: white;
+}
+.mainKda2018 .navBarKda .navBarKdaSub .menuNavQueSeAbreKda .listaNavQueSeAbreKda .listaNavQueSeAbreKdaSub hr {
+  border-color: rgb(158, 4, 230);
+}
+.mainKda2018 .navBarKda .navBarKdaSub .menuNavQueSeAbreKda .listaNavQueSeAbreKda .listaNavQueSeAbreKdaSub .navBotonListaQueSeAbreKdaSub a {
+  text-align: center;
+  color: rgb(212, 212, 212);
+  font-size: 1rem;
+  transition: 0.4s;
+}
+.mainKda2018 .navBarKda .navBarKdaSub .menuNavQueSeAbreKda .listaNavQueSeAbreKda .listaNavQueSeAbreKdaSub .navBotonListaQueSeAbreKdaSub a:hover {
+  transform: scale(1.2);
+  color: rgb(110, 171, 207);
+}
+.mainKda2018 .navBarKda .navBarKdaSub .menuNavQueSeAbreKda .fraseBarNav {
+  color: rgb(154, 255, 253);
+  text-shadow: 3px 3px black;
+  font-size: 1.5rem;
+}
+.mainKda2018 h2 {
+  margin-top: 5%;
+  margin-bottom: 0%;
+  color: rgb(53, 235, 238);
+  font-size: 4rem;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.722);
+  transition: 0.3s;
+}
+.mainKda2018 h2:hover {
+  color: white;
+}
+.mainKda2018 .quienesSonKda {
+  width: 100%;
+}
+.mainKda2018 .quienesSonKda .quienesSonKdaParteTextual {
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.794);
+  border-radius: 20px;
+  margin: 4% 0% 4% 3%;
+}
+.mainKda2018 .quienesSonKda .quienesSonKdaParteTextual .quienesSonKdaTexto {
+  color: white;
+  text-shadow: 3px 3px black;
+  margin: 5%;
+  font-size: 1.7rem;
+}
+.mainKda2018 .quienesSonKda .quienesSonKdaParteImagen {
+  width: 46%;
+  background-color: rgba(0, 0, 0, 0.794);
+  border-radius: 20px;
+  margin-top: 4%;
+  margin: 4% 0% 4% 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainKda2018 .quienesSonKda .quienesSonKdaParteImagen .quienesSonKdaImagen {
+  width: 90%;
+  border: double rgb(5, 5, 5) 5px;
 }
 
 /* MEDIAS QUERIES */

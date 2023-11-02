@@ -16,6 +16,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+
+
     <!-- SEO -->
     <link rel="icon" href="img/index/imagen-favi-con.jpg" type="image/png">
     <meta name="title" content="♥ K/DA POP STARS ♥ | K/DA STARS">
@@ -25,7 +30,7 @@
 <body class="bodyKda2018">
 
     <!-- HEADER -->
-    <header class="container-fluid menuHeaderKda2018">
+    <header class="container-fluid menuHeaderKda2018" style="padding-right: 0px; padding-left: 0px;">
         <div class="d-flex justify-content-center py-3 menuHeaderKda2018Sub">
             <ul class="nav nav-pills menuHeaderKda2018SubLista">
                 <li class="nav-item">
@@ -83,7 +88,82 @@
     </header>
 
     <!-- MAIN -->
-    <main class="container-fluid">
+    <main class="container-fluid mainKda2018" style="padding-right: 0px; padding-left: 0px;">
+
+        <!-- BARRA NAV-->
+        <nav class="navbar navBarKda">
+            <div class="container-fluid navBarKdaSub">
+                <img src="../img/index/kda-logo-index.png" alt="kda-logo-index" class="imagenLogoPrincipal">
+
+                <button class="navbar-toggler botonQueAbreNavBarKda" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="offcanvas offcanvas-end menuNavQueSeAbreKda" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+
+                    <div class="offcanvas-header logoMenuNavQueSeAbreKda">
+                        <img src="../img/index/kda-logo-index.png" alt="kda-logo-index" class="imagenLogoKda">
+                        <button type="button" class="btn-close botonQueCierraMenuNavKda" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+
+                    <div class="offcanvas-body listaNavQueSeAbreKda">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 listaNavQueSeAbreKdaSub">
+                            <li class="nav-item navBotonListaQueSeAbreKdaSub">
+                                <a class="nav-link" href="#">♥ ¿QUIÉNES SON? ♥</a>
+                            </li>
+                            <hr>
+                            <li class="nav-item navBotonListaQueSeAbreKdaSub">
+                                <a class="nav-link" href="#">♥ HISTORIA ♥</a>
+                            </li>
+                            <hr>
+                            <li class="nav-item navBotonListaQueSeAbreKdaSub">
+                                <a class="nav-link" href="#">♥ INTEGRANTES ♥</a>
+                            </li>
+                            <hr>
+                            <li class="nav-item navBotonListaQueSeAbreKdaSub">
+                                <a class="nav-link" href="#">♥ ÁLBUN ♥</a>
+                            </li>
+                            <hr>
+                            <li class="nav-item navBotonListaQueSeAbreKdaSub">
+                                <a class="nav-link" href="#">♥ MULTIMEDIA ♥</a>
+                            </li>
+                            <hr>
+                            <li class="nav-item navBotonListaQueSeAbreKdaSub">
+                                <a class="nav-link" href="#">✰ K/DA ALL OUT ✰</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <p class="fraseBarNav"> Can you feel the rush now? </p>
+                </div>
+            </div>
+        </nav>
+
+        <!-- ¿QUIÉNES SON?-->
+        <h2>¿Quiénes Son?</h2>
+        <section class="row featurette quienesSonKda">
+            <div class="col-md-7 quienesSonKdaParteTextual" style="padding-right: 0px; padding-left: 0px;">
+                <p class="lead quienesSonKdaTexto">K/DA es un vibrante y enigmático grupo virtual de música pop que se
+                    encuentra en el corazón del emocionante universo del videojuego League of Legends, creado por Riot
+                    Games. Este grupo, compuesto por cuatro carismáticas campeonas del juego, Ahri, Akali, Evelynn y
+                    Kai'Sa, trasciende los límites del juego para convertirse en auténticas estrellas de la música en el
+                    mundo ficticio de League of Legends.
+                </p>
+                <p class="lead quienesSonKdaTexto">La esencia de K/DA reside en su capacidad para fusionar el mundo de
+                    los videojuegos con la industria musical de manera magistral. Cada miembro del grupo encarna no solo
+                    una personalidad única, sino también una apariencia y estilo musical distintivo que se mezcla en un
+                    espectáculo visual y sonoro impresionante. Sus canciones no solo son éxitos pegajosos, sino que
+                    también cuentan con coreografías espectaculares y actuaciones en vivo sorprendentes.
+                </p>
+            </div>
+            <div class="col-md-5 quienesSonKdaParteImagen" style="padding-right: 0px; padding-left: 0px;">
+                <img src="../img/kda-2018/quienesSon-imagen-1.png" alt="quienesSon-imagen-1" class="quienesSonKdaImagen">
+            </div>
+        </section>
+
 
     </main>
 
