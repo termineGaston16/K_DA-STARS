@@ -77,11 +77,11 @@
                     }
                 }
 
-                .fraseBarNav{
+                .fraseBarNav {
                     color: rgb(154, 255, 253);
                     text-shadow: 3px 3px black;
                     font-size: 1.5rem;
-                    
+
                 }
             }
         }
@@ -105,27 +105,30 @@
     }
 
     /* ¿QUIÉNES SON? */
-    .quienesSonKda{
+    .quienesSonKda {
         width: 100%;
 
-        .quienesSonKdaParteTextual{
+        .quienesSonKdaParteTextual {
             width: 50%;
             background-color: rgba(0, 0, 0, 0.794);
             border-radius: 20px;
-            margin: 4% 0% 4% 3%;
+            margin: 4% 0% 4% 5%;
 
-            
-            .quienesSonKdaTexto{
+
+            .quienesSonKdaTexto {
                 color: white;
                 text-shadow: 3px 3px black;
 
                 margin: 5%;
                 font-size: 1.7rem;
             }
+
+            .quienesSonKdaTexto2 {
+                text-align: end;
+            }
         }
 
-        .quienesSonKdaParteImagen{
-            width: 46%;
+        .quienesSonKdaParteImagen {
             background-color: rgba(0, 0, 0, 0.794);
             border-radius: 20px;
             margin-top: 4%;
@@ -135,10 +138,41 @@
             align-items: center;
             justify-content: center;
 
-            .quienesSonKdaImagen{
+            .quienesSonKdaImagen {
                 width: 90%;
 
                 border: double rgb(5, 5, 5) 5px;
+            }
+        }
+
+        .quienesSonKdaParteImagen2{
+            margin-left: 5%;
+        }
+    }
+
+    /* HISTORIA */
+    .historiaKda{
+        background-color: black;
+        .historiaKdaSub{
+            gap: 7%;
+
+            .historiaKdaSeccionTexto{
+                .historiaKdaSeccionTextoTitulo{
+                    color: white;
+                }
+                .historiaKdaSeccionTextoContenido{
+                    color: white;
+                }
+            }
+
+            .historiaKdaSeccionImagen{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .historiaKdaSeccionImagenCotenido{
+                    width: 120%;
+                }
             }
         }
     }

@@ -163,6 +163,7 @@ html {
   /* BARRA NAV */
   /* H2 */
   /* ¿QUIÉNES SON? */
+  /* HISTORIA */
 }
 .mainKda2018 .navBarKda {
   background-color: rgb(11, 11, 11);
@@ -242,7 +243,7 @@ html {
   width: 50%;
   background-color: rgba(0, 0, 0, 0.794);
   border-radius: 20px;
-  margin: 4% 0% 4% 3%;
+  margin: 4% 0% 4% 5%;
 }
 .mainKda2018 .quienesSonKda .quienesSonKdaParteTextual .quienesSonKdaTexto {
   color: white;
@@ -250,8 +251,10 @@ html {
   margin: 5%;
   font-size: 1.7rem;
 }
+.mainKda2018 .quienesSonKda .quienesSonKdaParteTextual .quienesSonKdaTexto2 {
+  text-align: end;
+}
 .mainKda2018 .quienesSonKda .quienesSonKdaParteImagen {
-  width: 46%;
   background-color: rgba(0, 0, 0, 0.794);
   border-radius: 20px;
   margin-top: 4%;
@@ -263,6 +266,29 @@ html {
 .mainKda2018 .quienesSonKda .quienesSonKdaParteImagen .quienesSonKdaImagen {
   width: 90%;
   border: double rgb(5, 5, 5) 5px;
+}
+.mainKda2018 .quienesSonKda .quienesSonKdaParteImagen2 {
+  margin-left: 5%;
+}
+.mainKda2018 .historiaKda {
+  background-color: black;
+}
+.mainKda2018 .historiaKda .historiaKdaSub {
+  gap: 7%;
+}
+.mainKda2018 .historiaKda .historiaKdaSub .historiaKdaSeccionTexto .historiaKdaSeccionTextoTitulo {
+  color: white;
+}
+.mainKda2018 .historiaKda .historiaKdaSub .historiaKdaSeccionTexto .historiaKdaSeccionTextoContenido {
+  color: white;
+}
+.mainKda2018 .historiaKda .historiaKdaSub .historiaKdaSeccionImagen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainKda2018 .historiaKda .historiaKdaSub .historiaKdaSeccionImagen .historiaKdaSeccionImagenCotenido {
+  width: 120%;
 }
 
 /* MEDIAS QUERIES */
