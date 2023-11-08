@@ -145,33 +145,110 @@
             }
         }
 
-        .quienesSonKdaParteImagen2{
+        .quienesSonKdaParteImagen2 {
             margin-left: 5%;
         }
     }
 
     /* HISTORIA */
-    .historiaKda{
+    .historiaKda {
         background-color: black;
-        .historiaKdaSub{
+
+        .historiaKdaSub {
             gap: 7%;
 
-            .historiaKdaSeccionTexto{
-                .historiaKdaSeccionTextoTitulo{
+            .historiaKdaSeccionTexto {
+                .historiaKdaSeccionTextoTitulo {
                     color: white;
                 }
-                .historiaKdaSeccionTextoContenido{
+
+                .historiaKdaSeccionTextoContenido {
                     color: white;
                 }
             }
 
-            .historiaKdaSeccionImagen{
+            .historiaKdaSeccionImagen {
                 display: flex;
                 align-items: center;
                 justify-content: center;
 
-                .historiaKdaSeccionImagenCotenido{
+                .historiaKdaSeccionImagenCotenido {
                     width: 120%;
+                }
+            }
+        }
+    }
+
+    /* INTEGRANTES */
+    .integrantesKda {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.794);
+
+        .integrantesKdaBotones {
+            .integrantesKdaBotonesButton {
+                background-color: black;
+                border: 1px solid rgb(255, 47, 200);
+                transition: 0.5s;
+
+                &:hover{
+                    transform: scale(1.2);
+                    border: 1px solid rgb(0, 255, 242);
+                    background-color: rgb(255, 255, 255);
+                    color: black;
+                }
+
+            }
+        }
+
+        .integrantesKdaCollapse {
+            .integrantesKdaCollapseSub {
+                background-color: rgba(0, 0, 0, 0);
+
+                .integrantesKdaCollapseSubContenedor{
+                    .integrantesKdaCollapseSubContenedorTexto{
+                        .integrantesKdaCollapseSubContenedorNombre{
+                            color: rgb(255, 47, 200);
+                            text-shadow: 2px 2px black;
+                            font-size: 3.0rem;
+                        }
+                        .integrantesKdaCollapseSubContenedorDescripcion{
+                            color: white;
+                            text-shadow: 2px 2px black;
+                            font-size: 1.5rem;
+                        }
+                    }
+
+                    .integrantesKdaCollapseSubContenedorImagen{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        .integrantesKdaCollapseFoto{
+                            width: 70%;
+                            border: double 10px rgb(12, 0, 246);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /* ALBÚN */
+    .albunKda{
+        background-color: black;
+
+        .albunKdaSub{
+            .albunKdaContenedor{
+                .albunKdaContenedorDeImagen{
+                    .albunKdaContenedorDeImagen2{
+                        .albunKdaImagen{
+
+                        }
+                    }
                 }
             }
         }

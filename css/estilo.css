@@ -164,6 +164,8 @@ html {
   /* H2 */
   /* ¿QUIÉNES SON? */
   /* HISTORIA */
+  /* INTEGRANTES */
+  /* ALBÚN */
 }
 .mainKda2018 .navBarKda {
   background-color: rgb(11, 11, 11);
@@ -290,7 +292,49 @@ html {
 .mainKda2018 .historiaKda .historiaKdaSub .historiaKdaSeccionImagen .historiaKdaSeccionImagenCotenido {
   width: 120%;
 }
-
+.mainKda2018 .integrantesKda {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.794);
+}
+.mainKda2018 .integrantesKda .integrantesKdaBotones .integrantesKdaBotonesButton {
+  background-color: black;
+  border: 1px solid rgb(255, 47, 200);
+  transition: 0.5s;
+}
+.mainKda2018 .integrantesKda .integrantesKdaBotones .integrantesKdaBotonesButton:hover {
+  transform: scale(1.2);
+  border: 1px solid rgb(0, 255, 242);
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+.mainKda2018 .integrantesKda .integrantesKdaCollapse .integrantesKdaCollapseSub {
+  background-color: rgba(0, 0, 0, 0);
+}
+.mainKda2018 .integrantesKda .integrantesKdaCollapse .integrantesKdaCollapseSub .integrantesKdaCollapseSubContenedor .integrantesKdaCollapseSubContenedorTexto .integrantesKdaCollapseSubContenedorNombre {
+  color: rgb(255, 47, 200);
+  text-shadow: 2px 2px black;
+  font-size: 3rem;
+}
+.mainKda2018 .integrantesKda .integrantesKdaCollapse .integrantesKdaCollapseSub .integrantesKdaCollapseSubContenedor .integrantesKdaCollapseSubContenedorTexto .integrantesKdaCollapseSubContenedorDescripcion {
+  color: white;
+  text-shadow: 2px 2px black;
+  font-size: 1.5rem;
+}
+.mainKda2018 .integrantesKda .integrantesKdaCollapse .integrantesKdaCollapseSub .integrantesKdaCollapseSubContenedor .integrantesKdaCollapseSubContenedorImagen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainKda2018 .integrantesKda .integrantesKdaCollapse .integrantesKdaCollapseSub .integrantesKdaCollapseSubContenedor .integrantesKdaCollapseSubContenedorImagen .integrantesKdaCollapseFoto {
+  width: 70%;
+  border: double 10px rgb(12, 0, 246);
+}
+.mainKda2018 .albunKda {
+  background-color: black;
+}
 /* MEDIAS QUERIES */
 /* INDEX*/
 /* 0px - 769px */
