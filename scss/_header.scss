@@ -28,13 +28,13 @@
                 align-items: center;
                 justify-content: center;
 
-                &:hover{
+                &:hover {
                     transform: scale(1.1);
-                    background:linear-gradient(20deg, rgb(131, 0, 192), rgb(201, 86, 255));
+                    background: linear-gradient(20deg, rgb(131, 0, 192), rgb(201, 86, 255));
                     border: 1px solid white;
                     color: white;
                 }
-                
+
                 .tituloBotonEscuchaKdaHeader {
                     border-top: 25%;
                     height: 10px;
@@ -42,11 +42,20 @@
 
                 .listaBotonEscuchaKdaHeader {
                     .listaSubBotonEscuchaKdaHeader {
-                        .logoBotonEscuchaKdaHeader {
-                            transition: 0.3s;
+                        a {
+                            text-decoration: none;
+                            color: rgb(131, 0, 192);
 
-                            &:hover{
-                                transform: scale(1.2);
+                            &:hover {
+                                color: white;
+                            }
+
+                            .logoBotonEscuchaKdaHeader {
+                                transition: 0.3s;
+
+                                &:hover {
+                                    transform: scale(1.2);
+                                }
                             }
                         }
                     }
@@ -73,9 +82,9 @@
                 align-items: center;
                 justify-content: center;
 
-                &:hover{
+                &:hover {
                     transform: scale(1.1);
-                    background:linear-gradient(20deg, rgb(131, 0, 192), rgb(201, 86, 255));
+                    background: linear-gradient(20deg, rgb(131, 0, 192), rgb(201, 86, 255));
                     border: 1px solid white;
                     color: white;
                 }
@@ -87,11 +96,76 @@
 
                 .listaBotonSigueKdaHeader {
                     .listaSubBotonSigueKdaHeader {
-                        .logoBotonSigueKdaHeader {
-                            transition: 0.3s;
+                        a {
+                            text-decoration: none;
+                            color: rgb(131, 0, 192);
 
-                            &:hover{
-                                transform: scale(1.2);
+                            &:hover {
+                                color: white;
+                            }
+
+                            .logoBotonSigueKdaHeader {
+                                transition: 0.3s;
+
+                                &:hover {
+                                    transform: scale(1.2);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.menuHeaderKdaAllOut {
+    background-color: rgb(119, 163, 245);
+
+    .menuHeaderKdaAllOutSub {
+        .menuHeaderKdaAllOutSubLista {
+            .botonEscuchaKdaAllOutHeader {
+                border: 1px solid black;
+
+                color: black;
+
+                &:hover {
+                    background: linear-gradient(20deg, rgb(48, 179, 255), rgb(86, 255, 252));
+                    border: 1px solid blue;
+                    color: blue;
+                }
+
+                .listaBotonEscuchaKdaAllOutHeader {
+                    .listaSubBotonEscuchaKdaAllOutHeader {
+                        a {
+                            color: black;
+
+                            &:hover {
+                                color: blue;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .botonSigueKdaAllOutHeader {
+
+                border: 1px solid black;
+                color: black;
+
+                &:hover {
+                    background: linear-gradient(20deg, rgb(48, 179, 255), rgb(86, 255, 252));
+                    border: 1px solid blue;
+                    color: blue;
+                }
+
+                .listaBotonSigueKdaAllOutHeader {
+                    .listaSubBotonSigueKdaAllOutHeader {
+                        a {
+                            color: black;
+
+                            &:hover {
+                                color: blue;
                             }
                         }
                     }

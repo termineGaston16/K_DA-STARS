@@ -6,6 +6,8 @@
 @font-face{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Caveat', sans-serif;
+
+    font-family: 'Arvo', serif;
 }
 
 html {
@@ -13,7 +15,7 @@ html {
 }
 
 /* IMPORTS */
-@import "index","body","header","main";
-@import "m-q";
+@import "index.scss","body.scss","header.scss","main.scss","footer.scss";
+@import "m-q.scss";
  
 

@@ -7,6 +7,7 @@
 @font-face {
   font-family: "Open Sans", sans-serif;
   font-family: "Caveat", sans-serif;
+  font-family: "Arvo", serif;
 }
 html {
   scroll-behavior: smooth;
@@ -83,6 +84,14 @@ html {
   font-family: "Caveat", sans-serif;
 }
 
+.bodyKdaAllOut {
+  background-image: url(../img/kda-2020/fondo-main-kda-allout.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Arvo", serif;
+}
+
 .menuHeaderKda2018 {
   background-color: rgb(16, 16, 16);
 }
@@ -119,10 +128,17 @@ html {
   border-top: 25%;
   height: 10px;
 }
-.menuHeaderKda2018 .menuHeaderKda2018Sub .menuHeaderKda2018SubLista .botonEscuchaKdaHeader .listaBotonEscuchaKdaHeader .listaSubBotonEscuchaKdaHeader .logoBotonEscuchaKdaHeader {
+.menuHeaderKda2018 .menuHeaderKda2018Sub .menuHeaderKda2018SubLista .botonEscuchaKdaHeader .listaBotonEscuchaKdaHeader .listaSubBotonEscuchaKdaHeader a {
+  text-decoration: none;
+  color: rgb(131, 0, 192);
+}
+.menuHeaderKda2018 .menuHeaderKda2018Sub .menuHeaderKda2018SubLista .botonEscuchaKdaHeader .listaBotonEscuchaKdaHeader .listaSubBotonEscuchaKdaHeader a:hover {
+  color: white;
+}
+.menuHeaderKda2018 .menuHeaderKda2018Sub .menuHeaderKda2018SubLista .botonEscuchaKdaHeader .listaBotonEscuchaKdaHeader .listaSubBotonEscuchaKdaHeader a .logoBotonEscuchaKdaHeader {
   transition: 0.3s;
 }
-.menuHeaderKda2018 .menuHeaderKda2018Sub .menuHeaderKda2018SubLista .botonEscuchaKdaHeader .listaBotonEscuchaKdaHeader .listaSubBotonEscuchaKdaHeader .logoBotonEscuchaKdaHeader:hover {
+.menuHeaderKda2018 .menuHeaderKda2018Sub .menuHeaderKda2018SubLista .botonEscuchaKdaHeader .listaBotonEscuchaKdaHeader .listaSubBotonEscuchaKdaHeader a .logoBotonEscuchaKdaHeader:hover {
   transform: scale(1.2);
 }
 .menuHeaderKda2018 .menuHeaderKda2018Sub .menuHeaderKda2018SubLista .botonSigueKdaHeader {
@@ -152,27 +168,74 @@ html {
   border-top: 25%;
   height: 10px;
 }
-.menuHeaderKda2018 .menuHeaderKda2018Sub .menuHeaderKda2018SubLista .botonSigueKdaHeader .listaBotonSigueKdaHeader .listaSubBotonSigueKdaHeader .logoBotonSigueKdaHeader {
+.menuHeaderKda2018 .menuHeaderKda2018Sub .menuHeaderKda2018SubLista .botonSigueKdaHeader .listaBotonSigueKdaHeader .listaSubBotonSigueKdaHeader a {
+  text-decoration: none;
+  color: rgb(131, 0, 192);
+}
+.menuHeaderKda2018 .menuHeaderKda2018Sub .menuHeaderKda2018SubLista .botonSigueKdaHeader .listaBotonSigueKdaHeader .listaSubBotonSigueKdaHeader a:hover {
+  color: white;
+}
+.menuHeaderKda2018 .menuHeaderKda2018Sub .menuHeaderKda2018SubLista .botonSigueKdaHeader .listaBotonSigueKdaHeader .listaSubBotonSigueKdaHeader a .logoBotonSigueKdaHeader {
   transition: 0.3s;
 }
-.menuHeaderKda2018 .menuHeaderKda2018Sub .menuHeaderKda2018SubLista .botonSigueKdaHeader .listaBotonSigueKdaHeader .listaSubBotonSigueKdaHeader .logoBotonSigueKdaHeader:hover {
+.menuHeaderKda2018 .menuHeaderKda2018Sub .menuHeaderKda2018SubLista .botonSigueKdaHeader .listaBotonSigueKdaHeader .listaSubBotonSigueKdaHeader a .logoBotonSigueKdaHeader:hover {
   transform: scale(1.2);
+}
+
+.menuHeaderKdaAllOut {
+  background-color: rgb(119, 163, 245);
+}
+.menuHeaderKdaAllOut .menuHeaderKdaAllOutSub .menuHeaderKdaAllOutSubLista .botonEscuchaKdaAllOutHeader {
+  border: 1px solid black;
+  color: black;
+}
+.menuHeaderKdaAllOut .menuHeaderKdaAllOutSub .menuHeaderKdaAllOutSubLista .botonEscuchaKdaAllOutHeader:hover {
+  background: linear-gradient(20deg, rgb(48, 179, 255), rgb(86, 255, 252));
+  border: 1px solid blue;
+  color: blue;
+}
+.menuHeaderKdaAllOut .menuHeaderKdaAllOutSub .menuHeaderKdaAllOutSubLista .botonEscuchaKdaAllOutHeader .listaBotonEscuchaKdaAllOutHeader .listaSubBotonEscuchaKdaAllOutHeader a {
+  color: black;
+}
+.menuHeaderKdaAllOut .menuHeaderKdaAllOutSub .menuHeaderKdaAllOutSubLista .botonEscuchaKdaAllOutHeader .listaBotonEscuchaKdaAllOutHeader .listaSubBotonEscuchaKdaAllOutHeader a:hover {
+  color: blue;
+}
+.menuHeaderKdaAllOut .menuHeaderKdaAllOutSub .menuHeaderKdaAllOutSubLista .botonSigueKdaAllOutHeader {
+  border: 1px solid black;
+  color: black;
+}
+.menuHeaderKdaAllOut .menuHeaderKdaAllOutSub .menuHeaderKdaAllOutSubLista .botonSigueKdaAllOutHeader:hover {
+  background: linear-gradient(20deg, rgb(48, 179, 255), rgb(86, 255, 252));
+  border: 1px solid blue;
+  color: blue;
+}
+.menuHeaderKdaAllOut .menuHeaderKdaAllOutSub .menuHeaderKdaAllOutSubLista .botonSigueKdaAllOutHeader .listaBotonSigueKdaAllOutHeader .listaSubBotonSigueKdaAllOutHeader a {
+  color: black;
+}
+.menuHeaderKdaAllOut .menuHeaderKdaAllOutSub .menuHeaderKdaAllOutSubLista .botonSigueKdaAllOutHeader .listaBotonSigueKdaAllOutHeader .listaSubBotonSigueKdaAllOutHeader a:hover {
+  color: blue;
 }
 
 .mainKda2018 {
   /* BARRA NAV */
   /* H2 */
+  /* POPSTARS */
   /* ¿QUIÉNES SON? */
   /* HISTORIA */
   /* INTEGRANTES */
   /* ALBÚN */
+  /* VIDEOS RELACIONADOS */
 }
 .mainKda2018 .navBarKda {
   background-color: rgb(11, 11, 11);
-  position: static;
+  width: 100%;
+  top: 0;
+  position: sticky;
+  z-index: 10;
+  border-top: 1px solid white;
 }
 .mainKda2018 .navBarKda .navBarKdaSub .imagenLogoPrincipal {
-  width: 15%;
+  width: 20%;
   transition: 0.3s;
 }
 .mainKda2018 .navBarKda .navBarKdaSub .imagenLogoPrincipal:hover {
@@ -238,6 +301,54 @@ html {
 .mainKda2018 h2:hover {
   color: white;
 }
+.mainKda2018 .videoMusicalKda {
+  background-color: rgba(0, 0, 0, 0.794);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.mainKda2018 .videoMusicalKda .iframeVideoMusicaKda {
+  width: 50%;
+  height: 400px;
+  margin: 5%;
+  border: 1px solid rgb(89, 0, 255);
+  border-radius: 5px;
+  transition: 0.4s;
+}
+.mainKda2018 .videoMusicalKda .iframeVideoMusicaKda:hover {
+  border: 1px solid white;
+}
+.mainKda2018 .videoMusicalKda .contenedorConDescripcionDelVideo {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+.mainKda2018 .videoMusicalKda .contenedorConDescripcionDelVideo .contenedorConLetraDeCancion {
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.65);
+  border-radius: 10px;
+  overflow: auto;
+}
+.mainKda2018 .videoMusicalKda .contenedorConDescripcionDelVideo .contenedorConLetraDeCancion .letrasCancion {
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  margin: 5%;
+}
+.mainKda2018 .videoMusicalKda .contenedorConDescripcionDelVideo .contenedorDescripcion {
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.65);
+  border-radius: 10px;
+  overflow: auto;
+}
+.mainKda2018 .videoMusicalKda .contenedorConDescripcionDelVideo .contenedorDescripcion .descipcionDeIframe {
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  margin: 5%;
+}
 .mainKda2018 .quienesSonKda {
   width: 100%;
 }
@@ -245,7 +356,7 @@ html {
   width: 50%;
   background-color: rgba(0, 0, 0, 0.794);
   border-radius: 20px;
-  margin: 4% 0% 4% 5%;
+  margin: 0% 0% 4% 5%;
 }
 .mainKda2018 .quienesSonKda .quienesSonKdaParteTextual .quienesSonKdaTexto {
   color: white;
@@ -260,7 +371,7 @@ html {
   background-color: rgba(0, 0, 0, 0.794);
   border-radius: 20px;
   margin-top: 4%;
-  margin: 4% 0% 4% 0%;
+  margin: 0% 0% 4% 0%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -335,7 +446,101 @@ html {
 .mainKda2018 .albunKda {
   background-color: black;
 }
+.mainKda2018 .videosKda {
+  background-color: rgba(0, 0, 0, 0.794);
+  margin-bottom: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainKda2018 .videosKda .videosKdaSub {
+  border: 1px solid white;
+  margin: 5%;
+  transition: 0.4s;
+}
+.mainKda2018 .videosKda .videosKdaSub:hover {
+  border: 1px solid rgb(0, 242, 255);
+}
+.mainKda2018 .videosKda .videosKdaSub .carruselBoton {
+  background-color: rgb(0, 0, 0);
+  transition: 0.4s;
+  height: 25%;
+}
+.mainKda2018 .videosKda .videosKdaSub .carruselBoton:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.mainKdaAllOut {
+  /* BARRA NAV */
+}
+.mainKdaAllOut .navBarKdaAllOut .navBarKdaAllOutSub .imagenLogoPrincipalAllOut {
+  width: 50%;
+  transition: 0.3s;
+  margin: 4% 0px 3% 4%;
+}
+.mainKdaAllOut .navBarKdaAllOut .navBarKdaAllOutSub .imagenLogoPrincipalAllOut:hover {
+  transform: scale(1.1);
+}
+.mainKdaAllOut .navBarKdaAllOut .navBarKdaAllOutSub .botonQueAbreNavBarKdaAllOut {
+  border: 1px solid rgb(1, 242, 255);
+}
+.mainKdaAllOut .navBarKdaAllOut .navBarKdaAllOutSub .botonQueAbreNavBarKdaAllOut:hover {
+  transform: scale(0.9);
+  border: 1px solid rgb(255, 255, 255);
+}
+.mainKdaAllOut .navBarKdaAllOut .navBarKdaAllOutSub .menuNavQueSeAbreKdaAllOut .logoMenuNavQueSeAbreKdaAllOut .botonQueCierraMenuNavKdaAllOut {
+  border: 1px solid rgb(1, 242, 255);
+  background-color: white;
+}
+.mainKdaAllOut .navBarKdaAllOut .navBarKdaAllOutSub .menuNavQueSeAbreKdaAllOut .logoMenuNavQueSeAbreKdaAllOut .botonQueCierraMenuNavKdaAllOut:hover {
+  border: 1px solid white;
+  background-color: black;
+}
+.mainKdaAllOut .navBarKdaAllOut .navBarKdaAllOutSub .menuNavQueSeAbreKdaAllOut .listaNavQueSeAbreKdaAllOut .listaNavQueSeAbreKdaSubAllOut hr {
+  border-color: rgb(1, 242, 255);
+}
+.mainKdaAllOut .navBarKdaAllOut .navBarKdaAllOutSub .menuNavQueSeAbreKdaAllOut .listaNavQueSeAbreKdaAllOut .listaNavQueSeAbreKdaSubAllOut .navBotonListaQueSeAbreKdaSubAllOut a:hover {
+  transform: scale(1.2);
+  color: rgb(155, 0, 251);
+}
+.mainKdaAllOut .navBarKdaAllOut .navBarKdaAllOutSub .menuNavQueSeAbreKdaAllOut .fraseBarNavAllOut {
+  color: rgb(154, 255, 253);
+  text-shadow: 3px 3px black;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.footerKda {
+  background-color: rgb(0, 0, 0);
+}
+.footerKda .footerKdaSub .footerKdaTextRiot {
+  color: white;
+  text-shadow: 1px 1px red;
+  font-size: 1.5rem;
+}
+.footerKda .footerKdaSub .textoCopyRight {
+  color: white;
+  background-color: rgb(14, 14, 14);
+  border-radius: 5px;
+  padding: 2%;
+}
+.footerKda .footerKdaSub .textoCopyRight .miNombre {
+  color: aqua;
+}
+.footerKda .footerKdaSub .footerKdaListaDeLinks {
+  width: 100%;
+}
+.footerKda .footerKdaSub .footerKdaListaDeLinks .footerKdaLink {
+  color: white;
+  transition: 0.2s;
+}
+.footerKda .footerKdaSub .footerKdaListaDeLinks .footerKdaLink:hover {
+  transform: scale(1.3);
+  color: rgb(112, 0, 248);
+}
+
 /* MEDIAS QUERIES */
+/* ----------------------------------------- */
 /* INDEX*/
 /* 0px - 769px */
 @media (min-width: 0px) and (max-width: 769px) {
@@ -355,6 +560,207 @@ html {
   .contenedorMainIndex .contenedorMainIndexSub .contenedorMainIndexSub2:hover .imagenFondoKda2Index {
     filter: blur(0px);
     transform: scale(1);
+  }
+}
+/* ----------------------------------------- */
+/* K/DA POPSTARS*/
+/* 0px - 480px */
+@media (min-width: 0px) and (max-width: 480px) {
+  .bodyKda2018 {
+    /* --------- HEADER --------- */
+    /* --------- MAIN --------- */
+    /*  BARRA NAV  */
+    /*  POP STARS  */
+    /*  ¿QUIENES SON?  */
+    /*  HISTORIA  */
+    /*  VIDEOS RELACIONADOS  */
+  }
+  .bodyKda2018 .menuHeaderKda2018 .menuHeaderKda2018Sub .menuHeaderKda2018SubLista {
+    gap: 15px;
+    margin-right: 10%;
+  }
+  .bodyKda2018 .navBarKda .navBarKdaSub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bodyKda2018 .navBarKda .navBarKdaSub .imagenLogoPrincipal {
+    margin-left: 7%;
+    width: 80%;
+  }
+  .bodyKda2018 .videoMusicalKda .iframeVideoMusicaKda {
+    width: 80%;
+    height: 200px;
+    margin: 15% 0px;
+  }
+  .bodyKda2018 .videoMusicalKda .contenedorConDescripcionDelVideo .contenedorConLetraDeCancion,
+  .bodyKda2018 .videoMusicalKda .contenedorConDescripcionDelVideo .contenedorDescripcion {
+    width: 85%;
+    border: 1px solid white;
+  }
+  .bodyKda2018 .quienesSonKda {
+    width: 102%;
+  }
+  .bodyKda2018 .quienesSonKda .quienesSonKdaParteTextual {
+    width: 100%;
+    margin: 0px;
+    border-radius: 0px;
+  }
+  .bodyKda2018 .quienesSonKda .quienesSonKdaParteTextual .quienesSonKdaTexto {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .bodyKda2018 .quienesSonKda .quienesSonKdaParteTextual .quienesSonKdaTexto2 {
+    text-align: center;
+  }
+  .bodyKda2018 .quienesSonKda .quienesSonKdaParteImagen {
+    border-radius: 0px;
+  }
+  .bodyKda2018 .quienesSonKda .quienesSonKdaParteImagen2 {
+    margin-left: 0%;
+  }
+  .bodyKda2018 .historiaKda .historiaKdaSub .historiaKdaSeccionImagen .historiaKdaSeccionImagenCotenido {
+    width: 90%;
+  }
+  .bodyKda2018 .videosKda .videosKdaSub {
+    width: 90%;
+  }
+}
+/* 481px - 767px */
+@media (min-width: 480px) and (max-width: 767px) {
+  .bodyKda2018 {
+    /* --------- HEADER --------- */
+    /* --------- MAIN --------- */
+    /*  BARRA NAV  */
+    /*  POP STARS  */
+    /*  ¿QUIENES SON?  */
+    /*  HISTORIA  */
+    /*  ALBÚN  */
+    /*  VIDEOS RELACIONADOS  */
+  }
+  .bodyKda2018 .menuHeaderKda2018 .menuHeaderKda2018Sub .menuHeaderKda2018SubLista {
+    gap: 30px;
+    margin-right: 10%;
+  }
+  .bodyKda2018 .navBarKda .navBarKdaSub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bodyKda2018 .navBarKda .navBarKdaSub .imagenLogoPrincipal {
+    margin-left: 23%;
+    width: 50%;
+  }
+  .bodyKda2018 .videoMusicalKda .iframeVideoMusicaKda {
+    width: 80%;
+    height: 340px;
+    margin: 15% 0px;
+  }
+  .bodyKda2018 .videoMusicalKda .contenedorConDescripcionDelVideo .contenedorConLetraDeCancion,
+  .bodyKda2018 .videoMusicalKda .contenedorConDescripcionDelVideo .contenedorDescripcion {
+    width: 75%;
+    border: 1px solid white;
+  }
+  .bodyKda2018 .quienesSonKda {
+    width: 102%;
+  }
+  .bodyKda2018 .quienesSonKda .quienesSonKdaParteTextual {
+    width: 100%;
+    margin: 0px;
+    border-radius: 0px;
+  }
+  .bodyKda2018 .quienesSonKda .quienesSonKdaParteTextual .quienesSonKdaTexto {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .bodyKda2018 .quienesSonKda .quienesSonKdaParteTextual .quienesSonKdaTexto2 {
+    text-align: center;
+  }
+  .bodyKda2018 .quienesSonKda .quienesSonKdaParteImagen {
+    border-radius: 0px;
+  }
+  .bodyKda2018 .quienesSonKda .quienesSonKdaParteImagen2 {
+    margin-left: 0%;
+  }
+  .bodyKda2018 .historiaKda .historiaKdaSub .historiaKdaSeccionImagen .historiaKdaSeccionImagenCotenido {
+    width: 90%;
+  }
+  .bodyKda2018 .albunKda .albunKdaSub .albunKdaContenedor .albunKdaContenedorDeImagen {
+    width: 100%;
+  }
+  .bodyKda2018 .videosKda .videosKdaSub {
+    width: 70%;
+  }
+}
+/* 768px - 1279px */
+@media (min-width: 768px) and (max-width: 1279px) {
+  .bodyKda2018 {
+    /* --------- MAIN --------- */
+    /*  BARRA NAV  */
+    /*  POP STARS  */
+    /*  ¿QUIENES SON?  */
+    /*  HISTORIA  */
+    /*  INTEGRANTES  */
+  }
+  .bodyKda2018 .navBarKda .navBarKdaSub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bodyKda2018 .navBarKda .navBarKdaSub .imagenLogoPrincipal {
+    margin-left: 33%;
+    width: 30%;
+  }
+  .bodyKda2018 .videoMusicalKda .iframeVideoMusicaKda {
+    width: 75%;
+    height: 500px;
+  }
+  .bodyKda2018 .videoMusicalKda .contenedorConDescripcionDelVideo .contenedorConLetraDeCancion,
+  .bodyKda2018 .videoMusicalKda .contenedorConDescripcionDelVideo .contenedorDescripcion {
+    width: 75%;
+    border: 1px solid white;
+  }
+  .bodyKda2018 .videoMusicalKda .contenedorConDescripcionDelVideo .contenedorConLetraDeCancion .descipcionDeIframe,
+  .bodyKda2018 .videoMusicalKda .contenedorConDescripcionDelVideo .contenedorDescripcion .descipcionDeIframe {
+    font-size: 1.5rem;
+  }
+  .bodyKda2018 .videoMusicalKda .contenedorConDescripcionDelVideo .contenedorConLetraDeCancion .letrasCancion,
+  .bodyKda2018 .videoMusicalKda .contenedorConDescripcionDelVideo .contenedorDescripcion .letrasCancion {
+    font-size: 1.5rem;
+  }
+  .bodyKda2018 .quienesSonKda .quienesSonKdaParteTextual .quienesSonKdaTexto {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .bodyKda2018 .historiaKda .historiaKdaSub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bodyKda2018 .historiaKda .historiaKdaSub .historiaKdaSeccionTexto {
+    width: 90%;
+  }
+  .bodyKda2018 .historiaKda .historiaKdaSub .historiaKdaSeccionTexto .historiaKdaSeccionTextoContenido {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .bodyKda2018 .historiaKda .historiaKdaSub .historiaKdaSeccionImagen {
+    width: 90%;
+  }
+  .bodyKda2018 .historiaKda .historiaKdaSub .historiaKdaSeccionImagen .historiaKdaSeccionImagenCotenido {
+    width: 100%;
+  }
+  .bodyKda2018 .integrantesKda .integrantesKdaCollapse .integrantesKdaCollapseSub .integrantesKdaCollapseSubContenedor .integrantesKdaCollapseSubContenedorTexto .integrantesKdaCollapseSubContenedorDescripcion {
+    font-size: 1.5rem;
+  }
+  .bodyKda2018 .integrantesKda .integrantesKdaCollapse .integrantesKdaCollapseSub .integrantesKdaCollapseSubContenedor .integrantesKdaCollapseSubContenedorImagen {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+  }
+  .bodyKda2018 .integrantesKda .integrantesKdaCollapse .integrantesKdaCollapseSub .integrantesKdaCollapseSubContenedor .integrantesKdaCollapseSubContenedorImagen .integrantesKdaCollapseFoto {
+    width: 100%;
+    border: double 10px rgb(12, 0, 246);
   }
 }
 
