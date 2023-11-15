@@ -360,3 +360,337 @@
         }
     }
 }
+
+
+/* ----------------------------------------- */
+/* K/DA ALL OUT*/
+
+/* 0px - 480px */
+@media(min-width: 0px) and (max-width: 480px) {
+    .bodyKdaAllOut {
+
+        /* --------- HEADER --------- */
+        .menuHeaderKdaAllOut {
+            .menuHeaderKdaAllOutSub {
+                .menuHeaderKdaAllOutSubLista {
+                    gap: 15px;
+                    margin-right: 10%;
+                }
+            }
+        }
+
+        /* --------- MAIN --------- */
+        /*  BARRA NAV  */
+        .navBarKdaAllOut {
+            .navBarKdaAllOutSub {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .imagenLogoPrincipal {
+                    margin-left: 7%;
+                    width: 80%;
+                }
+            }
+        }
+
+
+        /*  POP STARS  */
+        .videoMusicalKdaAllOut {
+            .iframeVideoMusicaKdaAllOut {
+                width: 80%;
+                height: 200px;
+
+                margin: 15% 0px;
+            }
+
+            .contenedorConDescripcionDelVideo {
+
+                .contenedorConLetraDeCancion,
+                .contenedorDescripcion {
+                    width: 85%;
+                    border: 1px solid white;
+                }
+
+            }
+        }
+
+        /*  ¿QUIENES SON?  */
+        .quienesSonKda {
+            width: 102%;
+
+            .quienesSonKdaParteTextual {
+                width: 100%;
+                margin: 0px;
+                border-radius: 0px;
+
+                .quienesSonKdaTexto {
+                    text-align: center;
+                    font-size: 1.2rem;
+                }
+
+                .quienesSonKdaTexto2 {
+                    text-align: center;
+                }
+            }
+
+            .quienesSonKdaParteImagen {
+                border-radius: 0px;
+            }
+
+            .quienesSonKdaParteImagen2 {
+                margin-left: 0%;
+            }
+        }
+
+
+        /*  HISTORIA  */
+        .historiaKdaAllOut {
+            .historiaKdaAllOutSub {
+                .historiaKdaAllOutSeccionImagen {
+                    .historiaKdaAllOutSeccionImagenCotenido {
+                        width: 90%;
+                    }
+                }
+            }
+        }
+
+        /*  VIDEOS RELACIONADOS  */
+        .videosKda {
+            .videosKdaSub {
+                width: 90%;
+            }
+        }
+    }
+
+}
+
+/* 481px - 767px */
+@media(min-width: 480px) and (max-width: 767px) {
+    .bodyKdaAllOut {
+
+        /* --------- HEADER --------- */
+        .menuHeaderKdaAllOut {
+            .menuHeaderKdaAllOutSub {
+                .menuHeaderKdaAllOutSubLista {
+                    gap: 30px;
+                    margin-right: 10%;
+                }
+            }
+        }
+
+        /* --------- MAIN --------- */
+        /*  BARRA NAV  */
+        .navBarKdaAllOut {
+            .navBarKdaAllOutSub {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .imagenLogoPrincipal {
+                    margin-left: 23%;
+                    width: 50%;
+                }
+            }
+        }
+
+
+        /*  POP STARS  */
+        .videoMusicalKdaAllOut {
+            .iframeVideoMusicaKdaAllOut {
+                width: 80%;
+                height: 340px;
+
+                margin: 15% 0px;
+            }
+
+            .contenedorConDescripcionDelVideo {
+
+                .contenedorConLetraDeCancion,
+                .contenedorDescripcion {
+                    width: 75%;
+                    border: 1px solid white;
+                }
+
+            }
+        }
+
+        /*  ¿QUIENES SON?  */
+        .quienesSonKda {
+            width: 102%;
+
+            .quienesSonKdaParteTextual {
+                width: 100%;
+                margin: 0px;
+                border-radius: 0px;
+
+                .quienesSonKdaTexto {
+                    text-align: center;
+                    font-size: 1.5rem;
+                }
+
+                .quienesSonKdaTexto2 {
+                    text-align: center;
+                }
+            }
+
+            .quienesSonKdaParteImagen {
+                border-radius: 0px;
+            }
+
+            .quienesSonKdaParteImagen2 {
+                margin-left: 0%;
+            }
+        }
+
+        /*  HISTORIA  */
+        .historiaKda {
+            .historiaKdaSub {
+                .historiaKdaSeccionImagen {
+                    .historiaKdaSeccionImagenCotenido {
+                        width: 90%;
+                    }
+                }
+            }
+        }
+
+        /*  HISTORIA  */
+        .historiaKdaAllOut {
+            .historiaKdaAllOutSub {
+                .historiaKdaAllOutSeccionImagen {
+                    .historiaKdaAllOutSeccionImagenCotenido {
+                        width: 90%;
+                    }
+                }
+            }
+        }
+
+        /*  ALBÚN  */
+        .albunKdaAllOut {
+            .albunKdaAllOutSub {
+                .albunKdaAllOutContenedor {
+                    .albunKdaAllOutContenedorDeImagen {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        /*  VIDEOS RELACIONADOS  */
+        .videosKda {
+            .videosKdaSub {
+                width: 70%;
+            }
+        }
+    }
+}
+
+/* 768px - 1279px */
+@media(min-width: 768px) and (max-width: 1279px) {
+    .bodyKdaAllOut {
+
+        /* --------- MAIN --------- */
+        /*  BARRA NAV  */
+        .navBarKdaAllOut {
+            .navBarKdaAllOutSub {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .imagenLogoPrincipal {
+                    margin-left: 33%;
+                    width: 30%;
+                }
+            }
+        }
+
+
+        /*  POP STARS  */
+        .videoMusicalKdaAllOut {
+            .iframeVideoMusicaKdaAllOut {
+                width: 75%;
+                height: 500px;
+            }
+
+            .contenedorConDescripcionDelVideo {
+
+                .contenedorConLetraDeCancion,
+                .contenedorDescripcion {
+                    width: 75%;
+                    border: 1px solid white;
+
+                    .descipcionDeIframe {
+                        font-size: 1.5rem;
+                    }
+
+                    .letrasCancion {
+                        font-size: 1.5rem;
+                    }
+                }
+
+            }
+        }
+
+        /*  ¿QUIENES SON?  */
+        .quienesSonKda {
+            .quienesSonKdaParteTextual {
+                .quienesSonKdaTexto {
+                    text-align: center;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+
+        /*  HISTORIA  */
+        .historiaKdaAllOut {
+            .historiaKdaAllOutSub {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .historiaKdaAllOutSeccionTexto {
+                    width: 90%;
+
+                    .historiaKdaAllOutSeccionTextoContenido {                   
+                        text-align: center;
+                        font-size: 1.5rem;
+                    }
+                }
+
+                .historiaKdaAllOutSeccionImagen {
+                    width: 90%;
+
+                    .historiaKdaAllOutSeccionImagenCotenido {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        /*  INTEGRANTES  */
+        .integrantesKdaAllOut{
+            .integrantesKdaAllOutCollapse {
+                .integrantesKdaAllOutCollapseSub {
+    
+                    .integrantesKdaAllOutCollapseSubContenedor {
+                        .integrantesKdaAllOutCollapseSubContenedorTexto {
+                            .integrantesKdaAllOutCollapseSubContenedorDescripcion {
+                                font-size: 1.5rem;
+                            }
+                        }
+                        .integrantesKdaAllOutCollapseSubContenedorImagen {
+                            display: flex;
+                            align-items: start;
+                            justify-content: center;
+    
+                            .integrantesKdaAllOutCollapseFoto {
+                                width: 100%;
+                                border: double 10px rgb(12, 0, 246);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

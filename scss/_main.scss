@@ -430,4 +430,55 @@
             }
         }
     }
+
+    /* INTEGRANTES */
+    .integrantesKdaAllOut {
+        .integrantesKdaAllOutBotones {
+            .integrantesKdaAllOutBotonesButton {
+                margin-top: 3%;
+                background-color: white;
+                border: 1px solid rgb(47, 255, 248);
+                color: black;
+
+                &:hover {
+                    border: 1px solid rgb(4, 0, 255);
+                    background-color: rgb(0, 0, 0);
+                    color: white;
+                }
+
+            }
+        }
+
+        .integrantesKdaAllOutCollapse {
+            .integrantesKdaAllOutCollapseSub {
+                background-color: rgba(0, 0, 0, 0);
+
+                .integrantesKdaAllOutCollapseSubContenedor {
+                    .integrantesKdaAllOutCollapseSubContenedorTexto {
+                        .integrantesKdaAllOutCollapseSubContenedorNombre {
+                            color: rgb(47, 255, 248);
+                        }
+
+                        .integrantesKdaAllOutCollapseVideoMusical{
+                            border: 5px double white;
+                            width: 80%;
+                        }
+                    }
+
+                    .integrantesKdaAllOutCollapseSubContenedorImagen {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column;
+                        gap:20px;
+
+                        .integrantesKdaAllOutCollapseFoto {
+                            border: double 10px white;
+                        }                       
+                    }
+                }
+            }
+        }
+    }
+
 }

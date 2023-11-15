@@ -22,56 +22,59 @@ html {
 .contenedorMainIndex .contenedorMainIndexSub {
   width: 100%;
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.contenedorMainIndex .contenedorMainIndexSub .contenedorMainIndexSub1 {
+.contenedorMainIndex .contenedorMainIndexSub .contenedorMainIndexSub1 a {
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
 }
-.contenedorMainIndex .contenedorMainIndexSub .contenedorMainIndexSub1 .imagenLogoKda1Index {
+.contenedorMainIndex .contenedorMainIndexSub .contenedorMainIndexSub1 a .imagenLogoKda1Index {
   width: 30%;
   transition: 0.2s;
   opacity: 0;
   position: absolute;
   z-index: 5;
 }
-.contenedorMainIndex .contenedorMainIndexSub .contenedorMainIndexSub1 .imagenFondoKda1Index {
+.contenedorMainIndex .contenedorMainIndexSub .contenedorMainIndexSub1 a .imagenFondoKda1Index {
   position: relative;
   z-index: 1;
   transition: 0.4s;
   border: 8px solid rgb(11, 11, 11);
 }
-.contenedorMainIndex .contenedorMainIndexSub .contenedorMainIndexSub1:hover .imagenLogoKda1Index {
+.contenedorMainIndex .contenedorMainIndexSub .contenedorMainIndexSub1 a:hover .imagenLogoKda1Index {
   opacity: 1;
 }
-.contenedorMainIndex .contenedorMainIndexSub .contenedorMainIndexSub1:hover .imagenFondoKda1Index {
+.contenedorMainIndex .contenedorMainIndexSub .contenedorMainIndexSub1 a:hover .imagenFondoKda1Index {
   filter: blur(5px);
   transform: scale(1.1);
 }
-.contenedorMainIndex .contenedorMainIndexSub .contenedorMainIndexSub2 {
+.contenedorMainIndex .contenedorMainIndexSub .contenedorMainIndexSub2 a {
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
 }
-.contenedorMainIndex .contenedorMainIndexSub .contenedorMainIndexSub2 .imagenLogoKda2Index {
+.contenedorMainIndex .contenedorMainIndexSub .contenedorMainIndexSub2 a .imagenLogoKda2Index {
   width: 25%;
   transition: 0.2s;
   opacity: 0;
   position: absolute;
   z-index: 5;
 }
-.contenedorMainIndex .contenedorMainIndexSub .contenedorMainIndexSub2 .imagenFondoKda2Index {
+.contenedorMainIndex .contenedorMainIndexSub .contenedorMainIndexSub2 a .imagenFondoKda2Index {
   position: relative;
   z-index: 1;
   transition: 0.4s;
   border: 5px solid rgb(11, 11, 11);
 }
-.contenedorMainIndex .contenedorMainIndexSub .contenedorMainIndexSub2:hover .imagenLogoKda2Index {
+.contenedorMainIndex .contenedorMainIndexSub .contenedorMainIndexSub2 a:hover .imagenLogoKda2Index {
   opacity: 1;
 }
-.contenedorMainIndex .contenedorMainIndexSub .contenedorMainIndexSub2:hover .imagenFondoKda2Index {
+.contenedorMainIndex .contenedorMainIndexSub .contenedorMainIndexSub2 a:hover .imagenFondoKda2Index {
   filter: blur(5px);
   transform: scale(1.1);
 }
@@ -472,6 +475,7 @@ html {
 
 .mainKdaAllOut {
   /* BARRA NAV */
+  /* INTEGRANTES */
 }
 .mainKdaAllOut .navBarKdaAllOut .navBarKdaAllOutSub .imagenLogoPrincipalAllOut {
   width: 50%;
@@ -508,6 +512,37 @@ html {
   text-shadow: 3px 3px black;
   font-size: 1rem;
   text-align: center;
+}
+.mainKdaAllOut .integrantesKdaAllOut .integrantesKdaAllOutBotones .integrantesKdaAllOutBotonesButton {
+  margin-top: 3%;
+  background-color: white;
+  border: 1px solid rgb(47, 255, 248);
+  color: black;
+}
+.mainKdaAllOut .integrantesKdaAllOut .integrantesKdaAllOutBotones .integrantesKdaAllOutBotonesButton:hover {
+  border: 1px solid rgb(4, 0, 255);
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+.mainKdaAllOut .integrantesKdaAllOut .integrantesKdaAllOutCollapse .integrantesKdaAllOutCollapseSub {
+  background-color: rgba(0, 0, 0, 0);
+}
+.mainKdaAllOut .integrantesKdaAllOut .integrantesKdaAllOutCollapse .integrantesKdaAllOutCollapseSub .integrantesKdaAllOutCollapseSubContenedor .integrantesKdaAllOutCollapseSubContenedorTexto .integrantesKdaAllOutCollapseSubContenedorNombre {
+  color: rgb(47, 255, 248);
+}
+.mainKdaAllOut .integrantesKdaAllOut .integrantesKdaAllOutCollapse .integrantesKdaAllOutCollapseSub .integrantesKdaAllOutCollapseSubContenedor .integrantesKdaAllOutCollapseSubContenedorTexto .integrantesKdaAllOutCollapseVideoMusical {
+  border: 5px double white;
+  width: 80%;
+}
+.mainKdaAllOut .integrantesKdaAllOut .integrantesKdaAllOutCollapse .integrantesKdaAllOutCollapseSub .integrantesKdaAllOutCollapseSubContenedor .integrantesKdaAllOutCollapseSubContenedorImagen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.mainKdaAllOut .integrantesKdaAllOut .integrantesKdaAllOutCollapse .integrantesKdaAllOutCollapseSub .integrantesKdaAllOutCollapseSubContenedor .integrantesKdaAllOutCollapseSubContenedorImagen .integrantesKdaAllOutCollapseFoto {
+  border: double 10px white;
 }
 
 .footerKda {
@@ -759,6 +794,211 @@ html {
     justify-content: center;
   }
   .bodyKda2018 .integrantesKda .integrantesKdaCollapse .integrantesKdaCollapseSub .integrantesKdaCollapseSubContenedor .integrantesKdaCollapseSubContenedorImagen .integrantesKdaCollapseFoto {
+    width: 100%;
+    border: double 10px rgb(12, 0, 246);
+  }
+}
+/* ----------------------------------------- */
+/* K/DA ALL OUT*/
+/* 0px - 480px */
+@media (min-width: 0px) and (max-width: 480px) {
+  .bodyKdaAllOut {
+    /* --------- HEADER --------- */
+    /* --------- MAIN --------- */
+    /*  BARRA NAV  */
+    /*  POP STARS  */
+    /*  ¿QUIENES SON?  */
+    /*  HISTORIA  */
+    /*  VIDEOS RELACIONADOS  */
+  }
+  .bodyKdaAllOut .menuHeaderKdaAllOut .menuHeaderKdaAllOutSub .menuHeaderKdaAllOutSubLista {
+    gap: 15px;
+    margin-right: 10%;
+  }
+  .bodyKdaAllOut .navBarKdaAllOut .navBarKdaAllOutSub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bodyKdaAllOut .navBarKdaAllOut .navBarKdaAllOutSub .imagenLogoPrincipal {
+    margin-left: 7%;
+    width: 80%;
+  }
+  .bodyKdaAllOut .videoMusicalKdaAllOut .iframeVideoMusicaKdaAllOut {
+    width: 80%;
+    height: 200px;
+    margin: 15% 0px;
+  }
+  .bodyKdaAllOut .videoMusicalKdaAllOut .contenedorConDescripcionDelVideo .contenedorConLetraDeCancion,
+  .bodyKdaAllOut .videoMusicalKdaAllOut .contenedorConDescripcionDelVideo .contenedorDescripcion {
+    width: 85%;
+    border: 1px solid white;
+  }
+  .bodyKdaAllOut .quienesSonKda {
+    width: 102%;
+  }
+  .bodyKdaAllOut .quienesSonKda .quienesSonKdaParteTextual {
+    width: 100%;
+    margin: 0px;
+    border-radius: 0px;
+  }
+  .bodyKdaAllOut .quienesSonKda .quienesSonKdaParteTextual .quienesSonKdaTexto {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .bodyKdaAllOut .quienesSonKda .quienesSonKdaParteTextual .quienesSonKdaTexto2 {
+    text-align: center;
+  }
+  .bodyKdaAllOut .quienesSonKda .quienesSonKdaParteImagen {
+    border-radius: 0px;
+  }
+  .bodyKdaAllOut .quienesSonKda .quienesSonKdaParteImagen2 {
+    margin-left: 0%;
+  }
+  .bodyKdaAllOut .historiaKdaAllOut .historiaKdaAllOutSub .historiaKdaAllOutSeccionImagen .historiaKdaAllOutSeccionImagenCotenido {
+    width: 90%;
+  }
+  .bodyKdaAllOut .videosKda .videosKdaSub {
+    width: 90%;
+  }
+}
+/* 481px - 767px */
+@media (min-width: 480px) and (max-width: 767px) {
+  .bodyKdaAllOut {
+    /* --------- HEADER --------- */
+    /* --------- MAIN --------- */
+    /*  BARRA NAV  */
+    /*  POP STARS  */
+    /*  ¿QUIENES SON?  */
+    /*  HISTORIA  */
+    /*  HISTORIA  */
+    /*  ALBÚN  */
+    /*  VIDEOS RELACIONADOS  */
+  }
+  .bodyKdaAllOut .menuHeaderKdaAllOut .menuHeaderKdaAllOutSub .menuHeaderKdaAllOutSubLista {
+    gap: 30px;
+    margin-right: 10%;
+  }
+  .bodyKdaAllOut .navBarKdaAllOut .navBarKdaAllOutSub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bodyKdaAllOut .navBarKdaAllOut .navBarKdaAllOutSub .imagenLogoPrincipal {
+    margin-left: 23%;
+    width: 50%;
+  }
+  .bodyKdaAllOut .videoMusicalKdaAllOut .iframeVideoMusicaKdaAllOut {
+    width: 80%;
+    height: 340px;
+    margin: 15% 0px;
+  }
+  .bodyKdaAllOut .videoMusicalKdaAllOut .contenedorConDescripcionDelVideo .contenedorConLetraDeCancion,
+  .bodyKdaAllOut .videoMusicalKdaAllOut .contenedorConDescripcionDelVideo .contenedorDescripcion {
+    width: 75%;
+    border: 1px solid white;
+  }
+  .bodyKdaAllOut .quienesSonKda {
+    width: 102%;
+  }
+  .bodyKdaAllOut .quienesSonKda .quienesSonKdaParteTextual {
+    width: 100%;
+    margin: 0px;
+    border-radius: 0px;
+  }
+  .bodyKdaAllOut .quienesSonKda .quienesSonKdaParteTextual .quienesSonKdaTexto {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .bodyKdaAllOut .quienesSonKda .quienesSonKdaParteTextual .quienesSonKdaTexto2 {
+    text-align: center;
+  }
+  .bodyKdaAllOut .quienesSonKda .quienesSonKdaParteImagen {
+    border-radius: 0px;
+  }
+  .bodyKdaAllOut .quienesSonKda .quienesSonKdaParteImagen2 {
+    margin-left: 0%;
+  }
+  .bodyKdaAllOut .historiaKda .historiaKdaSub .historiaKdaSeccionImagen .historiaKdaSeccionImagenCotenido {
+    width: 90%;
+  }
+  .bodyKdaAllOut .historiaKdaAllOut .historiaKdaAllOutSub .historiaKdaAllOutSeccionImagen .historiaKdaAllOutSeccionImagenCotenido {
+    width: 90%;
+  }
+  .bodyKdaAllOut .albunKdaAllOut .albunKdaAllOutSub .albunKdaAllOutContenedor .albunKdaAllOutContenedorDeImagen {
+    width: 100%;
+  }
+  .bodyKdaAllOut .videosKda .videosKdaSub {
+    width: 70%;
+  }
+}
+/* 768px - 1279px */
+@media (min-width: 768px) and (max-width: 1279px) {
+  .bodyKdaAllOut {
+    /* --------- MAIN --------- */
+    /*  BARRA NAV  */
+    /*  POP STARS  */
+    /*  ¿QUIENES SON?  */
+    /*  HISTORIA  */
+    /*  INTEGRANTES  */
+  }
+  .bodyKdaAllOut .navBarKdaAllOut .navBarKdaAllOutSub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bodyKdaAllOut .navBarKdaAllOut .navBarKdaAllOutSub .imagenLogoPrincipal {
+    margin-left: 33%;
+    width: 30%;
+  }
+  .bodyKdaAllOut .videoMusicalKdaAllOut .iframeVideoMusicaKdaAllOut {
+    width: 75%;
+    height: 500px;
+  }
+  .bodyKdaAllOut .videoMusicalKdaAllOut .contenedorConDescripcionDelVideo .contenedorConLetraDeCancion,
+  .bodyKdaAllOut .videoMusicalKdaAllOut .contenedorConDescripcionDelVideo .contenedorDescripcion {
+    width: 75%;
+    border: 1px solid white;
+  }
+  .bodyKdaAllOut .videoMusicalKdaAllOut .contenedorConDescripcionDelVideo .contenedorConLetraDeCancion .descipcionDeIframe,
+  .bodyKdaAllOut .videoMusicalKdaAllOut .contenedorConDescripcionDelVideo .contenedorDescripcion .descipcionDeIframe {
+    font-size: 1.5rem;
+  }
+  .bodyKdaAllOut .videoMusicalKdaAllOut .contenedorConDescripcionDelVideo .contenedorConLetraDeCancion .letrasCancion,
+  .bodyKdaAllOut .videoMusicalKdaAllOut .contenedorConDescripcionDelVideo .contenedorDescripcion .letrasCancion {
+    font-size: 1.5rem;
+  }
+  .bodyKdaAllOut .quienesSonKda .quienesSonKdaParteTextual .quienesSonKdaTexto {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .bodyKdaAllOut .historiaKdaAllOut .historiaKdaAllOutSub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bodyKdaAllOut .historiaKdaAllOut .historiaKdaAllOutSub .historiaKdaAllOutSeccionTexto {
+    width: 90%;
+  }
+  .bodyKdaAllOut .historiaKdaAllOut .historiaKdaAllOutSub .historiaKdaAllOutSeccionTexto .historiaKdaAllOutSeccionTextoContenido {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .bodyKdaAllOut .historiaKdaAllOut .historiaKdaAllOutSub .historiaKdaAllOutSeccionImagen {
+    width: 90%;
+  }
+  .bodyKdaAllOut .historiaKdaAllOut .historiaKdaAllOutSub .historiaKdaAllOutSeccionImagen .historiaKdaAllOutSeccionImagenCotenido {
+    width: 100%;
+  }
+  .bodyKdaAllOut .integrantesKdaAllOut .integrantesKdaAllOutCollapse .integrantesKdaAllOutCollapseSub .integrantesKdaAllOutCollapseSubContenedor .integrantesKdaAllOutCollapseSubContenedorTexto .integrantesKdaAllOutCollapseSubContenedorDescripcion {
+    font-size: 1.5rem;
+  }
+  .bodyKdaAllOut .integrantesKdaAllOut .integrantesKdaAllOutCollapse .integrantesKdaAllOutCollapseSub .integrantesKdaAllOutCollapseSubContenedor .integrantesKdaAllOutCollapseSubContenedorImagen {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+  }
+  .bodyKdaAllOut .integrantesKdaAllOut .integrantesKdaAllOutCollapse .integrantesKdaAllOutCollapseSub .integrantesKdaAllOutCollapseSubContenedor .integrantesKdaAllOutCollapseSubContenedorImagen .integrantesKdaAllOutCollapseFoto {
     width: 100%;
     border: double 10px rgb(12, 0, 246);
   }
